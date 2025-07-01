@@ -2,7 +2,7 @@ using System;
 
 namespace LocadoraApi.Models
 {
-    public class Locacao
+    public class Aluguel
     {
         public int Id { get; set; }
         public int ClienteId { get; set; }

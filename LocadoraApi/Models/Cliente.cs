@@ -11,6 +11,6 @@ namespace LocadoraApi.Models
         public int Idade { get; set; }
         public string CNHStatus { get; set; } // "Ativa" ou "Inativa"
 
-        public List<Locacao> Locacoes { get; set; }
+        public List<Aluguel> Alugueis { get; set; }
     }
 }
